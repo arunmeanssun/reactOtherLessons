@@ -12,7 +12,20 @@ code {
     monospace;
 }
 
+/* common Styles ------------------------------------ */
+
+.f-72 { font-size: 72px; line-height: 82px; }
+.bold { font-weight: bold; }
+.text-center { text-align: center; }
+
+.px-3 { padding-left: 1rem; padding-right: 1rem; }
+.py-3 { padding-top: 1rem; padding-bottom: 1rem; }
+.my-3 { margin-top: 1rem; margin-bottom: 1rem; }
+
+
 /* Layout Styles ------------------------------------ */
 
-nav { background-color: aliceblue; padding: 12px 20px; }
-nav a { margin-right: 26px; }
+.primary-nav { background-color: aliceblue; padding: 12px 20px; }
+.primary-nav a, nav a { margin-right: 26px; }
+
+
